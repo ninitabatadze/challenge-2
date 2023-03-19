@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #EDEDED;
+}
+@font-face {
+    font-family: "inter-bold";
+    src: url(fonts/Inter-Black.ttf);
+}
+@font-face {
+    font-family: "inter";
+    src: url(fonts/Inter-ExtraLight.ttf);
+}
+.navbar-brand{
+font-family: 'Inter-bold';
+font-style: normal;
+font-weight: 900;
+font-size: 57.0953px;
+line-height: 69px;
+color: #000000;
+}
+.navbar-text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 34.0589px;
+line-height: 41px;
+text-align: right;
+color: #000000;
+}
+.photos{
+    flex-direction: row;
+    display: flex;
+}
+.central{
+color: white;
+font-family: 'Inter-bold';
+font-size: 41px;
+white-space: nowrap;
+margin-top: 10rem;
+line-height: 128.02%;
+}
+@media (max-width:767px) {
+    .photos{
+        flex-direction: column !important;
+        display: flex !important;
+    }
+    .photos div img{
+        border:none !important;
+    }
+}
